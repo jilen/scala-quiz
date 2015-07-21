@@ -11,3 +11,6 @@ Scala习题
 * Fork该项目，然后`git clone`fork的项目到本地进行开发
 * cd到项目目录，运行sbt
 * 编写/测试
+
+### 习题目录
++ [第一题](https://github.com/jilen/scala-quiz/blob/master/src/quiz/pie-random.md)
