@@ -10,8 +10,8 @@ class PieRandomSpec extends Properties("pie random") {
     val results = (1 to 10000).map(_ => random.select())
     val appleHits = results.count(_ == Apple)
     val orangeHits = results.count(_ == Orange)
-    val actualRate = (appleHits * 1.0 / orangeHits)
-    val expectRate = (a * 1.0 / b)
+    val actualRate = (appleHits * 1.0 / results.size)
+    val expectRate = a * 1.0 / (a + b)
     math.abs(actualRate - expectRate) < 0.1
   }
 }
