@@ -3,6 +3,9 @@ Scala习题
 
 ### 使用说明
 
+####我测试一下能不能提交代码
+######好像要先foke之后才能提交，直接从你那里clone是不行滴
+
 > 开始使用
 
 * 下载[sbt](http://www.scala-sbt.org/download.html)
